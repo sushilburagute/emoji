@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Emoji Hunt created with Create-React-App
+
+---
+
+This mini web-app is made as a part of neoG Camp levelZero Assignment. Stay updated on this readme for more learnings from this project!
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +74,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+1. Decalrative vs Imperative , read about it.
+1. templating
+1. event.target
+1. Instead of writing blogs for every chapter of elequnt js, codesanbox it

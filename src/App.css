@@ -1,38 +1,56 @@
-.App {
+body {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  background: radial-gradient(
+    circle,
+    rgba(75, 108, 183, 1) 0%,
+    rgba(24, 40, 72, 1) 100%
+  );
+  width: 100vw;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+h5 {
+  font-weight: 400;
+  font-style: italic;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+  font-weight: 500;
+  font-style: italic;
+}
+
+input {
+  border: 0.3rem solid #ffffff;
+  border-radius: 0.3rem;
+  -webkit-box-shadow: 8px 11px 26px -3px rgba(0, 0, 0, 0.61);
+  box-shadow: 8px 11px 26px -3px rgba(0, 0, 0, 0.61);
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.9);
+  margin: 0 0 10px 0;
+  width: 50vw;
+  height: 1rem;
+}
+
+.App {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.emoji-meaning {
+  margin: 1rem 0rem;
+  padding: 0rem;
+  background: rgba(255, 255, 255, 0.9);
+  border: 0.3rem solid #ffffff;
+  -webkit-box-shadow: 8px 11px 26px -3px rgba(0, 0, 0, 0.13);
+  box-shadow: 8px 11px 26px -3px rgba(0, 0, 0, 0.13);
+  color: #cb6c1b;
+  border-radius: 0.3rem;
+}
+
+.emoji-meaning h2 {
+  margin: 0.2rem;
 }
