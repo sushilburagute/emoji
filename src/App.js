@@ -30,10 +30,10 @@ function App() {
       <div>
         <h1>🔍 Emoji Hunt</h1>
         <h5>
-          Let's Admit it, we've all been there. There are situations where we
+          Let's admit it, we've all been there. There are situations where we
           don't understand the context of the emoji our friend has sent. <br />
           Type any emoji to know what they stand for, or select any of the
-          emojis present below to knpw their meaning!
+          emojis present below to know their meaning!
         </h5>
       </div>
       <input
